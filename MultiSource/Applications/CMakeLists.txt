@@ -10,8 +10,8 @@ if(NOT ARCH STREQUAL "PowerPC")
 # be restored when the issue is corrected.
   add_subdirectory(oggenc)
 endif()
-add_subdirectory(sgefa)
-add_subdirectory(spiff)
+#add_subdirectory(sgefa)
+#add_subdirectory(spiff)
 add_subdirectory(viterbi)
 
 add_subdirectory(ALAC)

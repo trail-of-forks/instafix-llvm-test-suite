@@ -1,7 +1,7 @@
 add_subdirectory(ASCI_Purple)
 add_subdirectory(ASC_Sequoia)
 add_subdirectory(BitBench)
-add_subdirectory(Fhourstones)
+#add_subdirectory(Fhourstones)
 add_subdirectory(Fhourstones-3.1)
 add_subdirectory(FreeBench)
 add_subdirectory(MallocBench)
