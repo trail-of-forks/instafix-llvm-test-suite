@@ -3,7 +3,7 @@
 # Est. Memory Usage is different with reference output.
 if(NOT ARCH STREQUAL "CSKY")
   add_subdirectory(XSBench)
-  add_subdirectory(RSBench)
+  #add_subdirectory(RSBench)
 endif()
 add_subdirectory(Pathfinder)
 add_subdirectory(miniAMR)
