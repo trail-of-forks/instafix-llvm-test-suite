@@ -11,7 +11,7 @@ def compute(context):
     executable = context.executable
     try:
         # Darwin's and Solaris' "strip" don't support these arguments.
-        if platform.system() != "Darwin" and platform.system() != "SunOS":
+        if False and platform.system() != "Darwin" and platform.system() != "SunOS":
             stripped_executable = executable + ".stripped"
             testplan.check_call(
                 [
