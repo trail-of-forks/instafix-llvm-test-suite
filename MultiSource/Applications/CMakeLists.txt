@@ -15,7 +15,7 @@ endif()
 add_subdirectory(viterbi)
 
 add_subdirectory(ALAC)
-add_subdirectory(hbd)
+#add_subdirectory(hbd)
 #add_subdirectory(lambda-0.1.3)
 #add_subdirectory(minisat)
 if(NOT TARGET_OS STREQUAL "SunOS")

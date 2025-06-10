@@ -4,4 +4,4 @@
 if(NOT CMAKE_SYSTEM_NAME MATCHES "AIX")
 #add_subdirectory(CLAMR)
 endif()
-add_subdirectory(HACCKernels)
+#add_subdirectory(HACCKernels)
